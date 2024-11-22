@@ -13,7 +13,7 @@ public class ArtistDemo {
         Dancer dancer = new Dancer("Misty Copeland", "American", 42, "Dance", DanceStyle.BALLET);
         dancer.displayInfo();
 
-        System.out.println(null);
+        System.out.println();
 
         Painter painter = new Painter("Gerhard Richter", "German", 92, "Painting", Medium.OIL);
         painter.displayInfo();
@@ -23,6 +23,6 @@ public class ArtistDemo {
         Writer writer = new Writer("Miguel Syjuco", "Filipino", 46, "Writing", WritingStyle.FICTION);
         writer.displayInfo();
 
-        System.out.println(null);
+        System.out.println();
     }
 }
